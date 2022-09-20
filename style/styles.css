@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+
+}
+
+#menu a,
+button {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(97, 139, 97);
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+
+
+}
+
+#contenedor-formulario {
+    top: 30%;
+    left: 50%;
+    background: rgb(252, 252, 252);
+    border-radius: 5px;
+
+}
+
+#titulo-formulario {
+    color: rgb(29, 83, 65);
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+    ;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+@media (max-width:1200px) {
+
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    @media (max-width:768px) {
+        #intro {
+            width: 90%;
+        }
+
+        .servicio-fila {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #servicios-fila-2 {
+            width: 100%;
+        }
+
+        #servicios-fila-1 {
+            width: 100%;
+        }
+    }
